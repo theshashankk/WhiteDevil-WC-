@@ -1,2 +1,2 @@
-from ub.javes_main.heroku_var import config
+from ub.WhiteDevil_main.heroku_var import config
 Config = config
