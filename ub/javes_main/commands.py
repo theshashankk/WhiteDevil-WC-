@@ -169,7 +169,7 @@ def rekcah05(pattern=None, **args):
     is_message_enabled = True
     return events.NewMessage(**args)
     
-def javess(**args):
+def WhiteDevil(**args):
     args["func"] = lambda e: e.via_bot_id is None
     stack = inspect.stack()
     previous_stack_frame = stack[1]
@@ -228,7 +228,7 @@ def javess(**args):
             except BaseException:
                 if not disable_errors:
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
-                    text = "**JAVES ERROR REPORT**\n"
+                    text = "**SHASHANK ERROR REPORT**\n"
                     text += "Send this to @errorsender_bot if you cant find issue\n"
                     ftext = "========== DISCLAIMER =========="
                     ftext += "\nThis file uploaded only logchat,"                
