@@ -1,1 +1,1 @@
-from ub.javes_main.commands import *
+from ub.WhiteDevil_main.commands import *
