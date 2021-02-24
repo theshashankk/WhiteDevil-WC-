@@ -69,7 +69,7 @@ TEMP_DOWNLOAD_DIRECTORY = config.TEMP_DOWNLOAD_DIRECTORY
     
 from ub import ALIVE_NAME
 from ub import DEFAULTUSER
-JAVES_MSG = (f"Javes ")
+JAVES_MSG = (f"Devil ")
 ORI_MSG = (f"Hello Sir, I can't allow you to {ALIVE_NAME}'s PM without his permissions please be patient, Thankyou ")
 BLOCK_MSG = (f"I am not going to allow you to spam {DEFAULTUSER}'s PM, You have been blocked ")
 JAVES_NNAME = str(JAVES_NAME) if JAVES_NAME else str(JAVES_MSG)
